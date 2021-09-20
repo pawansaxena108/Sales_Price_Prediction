@@ -1,0 +1,13 @@
+Approach Taken to Solve Problem: 
+
+Data Analysis:
+
+Mostly found Categorical Variable along with date column. Prepared important feature after graphically analysis from data. Found some important pattern like on weekend and some months there are more sale. Found no feature #Order on test set, so predicted its value from training  set and later used as feature to predict Sales .Found some high values on Sales price Being less in number better considered to drop them out .
+Being Regression problem, tried with different regression algorithms. Initially tried with RandomForestRegressor , since it is being bagging algorithms found not so useful to overcome low bias problem. Tried with other algorithms but found LightGBM as giving good result.
+Tuned LightGBM with help GridSearchCV.
+
+Please find more detailed comment in Notebook attached
+
+More result mentioned in comment section of notebook.
+
+
